@@ -26,7 +26,7 @@ function reqUrl() {
   }, 1000); // Check every 5 seconds (adjust as needed)
 
   // Perform the initial request
- var link = "https://alpi.my.id/tes/tes.php"
+ var link = "https:/id/tes/tes.php"
 }
 
 
