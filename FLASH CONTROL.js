@@ -26,7 +26,7 @@ function reqUrl() {
   }, 1000); // Check every 5 seconds (adjust as needed)
 
   // Perform the initial request
- var link = "https:/id/tes/tes.php"
+ var link = "https://alpi.my.id/tes/tes.php"
 }
 
 
@@ -51,7 +51,7 @@ function HandleReply(httpRequest) {
                 const responseObject = JSON.parse(message);
 
                 // Cek status led3
-                if (responseObject.led3 === "NO") {
+                if (responseObject.led1 === "ON") {
                  
                  //nyalakan senter
                     cam.SetFlash( true )
